@@ -1,43 +1,60 @@
-📊 Adidas Interactive Sales Dashboard
+# 📊 Adidas Interactive Sales Dashboard
 
-An interactive data visualization dashboard built using Python, Streamlit, and Plotly to analyze Adidas sales performance across retailers, time periods, regions, and states. The dashboard enables business users to explore trends, compare metrics, and download insights through an intuitive UI.
+An interactive **data visualization dashboard** built using **Python, Streamlit, and Plotly** to analyze Adidas sales performance across **retailers, time periods, regions, and states**.  
+The application enables business users to **explore trends, compare key metrics, and download insights** through a clean and intuitive user interface.
 
-🚀 Features
-*Interactive KPI Visualizations
-    Total Sales by Retailer (Bar Chart)
-    Monthly Sales Trends (Time-Series Line Chart)
-    Sales vs Units Sold by State (Dual-Axis Bar + Line Chart)
-    Regional & City-Level Sales Distribution (Treemap)
+---
 
-*Dynamic User Interaction
-    Epandable data views for detailed analysis
-    CSV download functionality for all aggregated datasets
-    Responsive layout optimized for wide screens
+## 🚀 Features
 
-*Data Processing & Aggregation
-    Time-based grouping (Month-Year)
-    Multi-level aggregation by Retailer, State, Region, and City
-    Custom formatting for large sales values (Lakhs)
+### 🔹 Interactive KPI Visualizations
+- **Total Sales by Retailer** – Bar chart comparison across retailers  
+- **Monthly Sales Trends** – Time-series line chart for trend analysis  
+- **Sales vs Units Sold by State** – Dual-axis bar + line chart  
+- **Regional & City-Level Sales Distribution** – Interactive treemap visualization  
 
-*Production-Ready UI
-    Streamlit layout configuration
-    Custom HTML/CSS styling
-    Embedded brand logo and last-updated timestamp
+---
 
-🛠️ Tech Stack
-Language: Python
-Framework: Streamlit
-Visualization: Plotly (Express & Graph Objects)
-Data Processing: Pandas
-UI/Styling: HTML, CSS
-Data Source: Excel (Adidas.xlsx)
+### 🔹 Dynamic User Interaction
+- Expandable data views for detailed drill-down analysis  
+- CSV download functionality for all aggregated datasets  
+- Responsive layout optimized for wide-screen dashboards  
 
-📂 Project Structure
-├── app.py                  # Main Streamlit application
-├── Adidas.xlsx             # Sales dataset
+---
+
+### 🔹 Data Processing & Aggregation
+- Time-based grouping using **Month–Year** analysis  
+- Multi-level aggregation by **Retailer, State, Region, and City**  
+- Custom formatting for large sales values (displayed in **Lakhs**)  
+
+---
+
+### 🔹 Production-Ready UI
+- Streamlit page layout configuration for professional dashboards  
+- Custom **HTML/CSS styling** for enhanced UI presentation  
+- Embedded brand logo and **last-updated timestamp**  
+
+---
+
+## 🛠️ Tech Stack
+
+- **Language:** Python  
+- **Framework:** Streamlit  
+- **Visualization:** Plotly (Express & Graph Objects)  
+- **Data Processing:** Pandas  
+- **UI / Styling:** HTML, CSS  
+- **Data Source:** Excel (`Adidas.xlsx`)  
+
+---
+
+## 📂 Project Structure
+├── app.py # Main Streamlit application
+├── Adidas.xlsx # Sales dataset
 ├── img/
-│   └── adidas-logo.jpg     # Brand logo
+│ └── adidas-logo.jpg # Brand logo
 ├── README.md
+
+
 
 ▶️ How to Run the Project
 pip install streamlit pandas plotly pillow openpyxl
